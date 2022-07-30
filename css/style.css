@@ -1,0 +1,37 @@
+body{
+    background-color: springgreen;
+}
+#welcome{
+    font-family: cursive;
+    line-height: 7%;
+    text-align: center;
+    /*padding: 8.75%;*/
+    /*font-size: 350%;*/
+    position: relative;
+    /*border-style: outset;*/
+    /*border-width: 8px;*/
+    /*border-color: blueviolet;*/
+    height: 80%;
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    transition: all 2s ease-in-out;
+}
+@keyframes welcome {
+    from{
+        padding: 0%;
+        font-size: xx-small;
+    }
+    to{
+        padding: 8.75%;
+        font-size: 350%;
+    }
+}
+#welcome:hover{
+    background-color: grey;
+    color: white;
+}
+#home{
+    align-items: center;
+}
